@@ -16,6 +16,15 @@ public class Zipper {
             newlist.add(list2.get(i));
         }
 
+        for (int i = size; i < size1; i++){
+            newlist.add(list1.get(i));
+        }
+
+        for (int i = size; i < size2; i++){
+            newlist.add(list2.get(i));
+        }
+
+
         return newlist;
     }
 
